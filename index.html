@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="img/logo.PNG" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img class="search-img" src="img/search.PNG" alt=""></button>
+        </div>
+        <div class="user-options">
+            <img src="img/video.PNG" class="icon" id="notify" alt="">
+            <img src="img/grid.PNG" class="icon" alt="">
+            <span class="alarm">15</span><img src="img/notification.png" class="icon" alt="">
+
+
+            <div class="user-dp">
+                <img src="img/3.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="img/home.PNG" alt="">home</a>
+        <a href="#" class="links"><img src="img/explore.PNG" alt="">explore</a>
+        <a href="#" class="links"><img src="img/subscriprion.png" alt="">subscription</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="img/library.PNG" alt="">library</a>
+        <a href="#" class="links"><img src="img/history.PNG" alt="">history</a>
+        <a href="#" class="links"><img src="img/your-video.PNG" alt="">your video</a>
+        <a href="#" class="links"><img src="img/watch-later.PNG" alt="">watch leater</a>
+        <a href="#" class="links"><img src="img/like.PNG" alt="">like video</a>
+        <a href="#" class="links"><img src="img/playlist.png" alt="">Saved</a>
+        <a href="#" class="links"><img src="img/show-more.png" alt="">show more</a>
+    </div>
+
+    <!-- filters -->
+    <div class="filters hide">
+
+        <button class="filter-options active">all</button>
+        <button class="filter-options">CSS</button>
+        <button class="filter-options">web development</button>
+        <button class="filter-options">python</button>
+        <button class="filter-options">entertainment</button>
+        <button class="filter-options">java</button>
+        <button class="filter-options">javascript</button>
+        <button class="filter-options">artificial intelligence</button>
+        <button class="filter-options">machine learning</button>
+        <button class="filter-options">trending</button>
+    </div>
+
+    <!-- videos -->
+    <div class="video-container">
+        <div class="video">
+            <!-- <img src="img/thumbnail1.png" class="thumbnail" alt=""> -->
+            <video class="thumbnail" controls>
+                <source src="img/video.mp4" type="video/mp4">
+                <source src="img/video.mp4" type="video/ogg">
+
+            </video>
+            <div class="content">
+                <img src="img/1.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">javascript course 2022 | create working youtube clone</h4>
+                    <p class="channel-name">5.6M views . 5 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img src="img/thumbnail2.png" class="thumbnail" alt="">
+
+
+            <div class="content">
+                <img src="img/2.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">javascript course 2022 | create working youtube clone</h4>
+                    <p class="channel-name">5.6M views . 5 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img src="img/thumbnail3.png" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/3.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">I have alot of people to prove | working on self growth</h4>
+                    <p class="channel-name">5.6M views . 5 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img src="img/thumbnail4.png" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/4.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Nature is a alive, speak, listening and talk | Care of Nature</h4>
+                    <p class="channel-name">5.6M views . 5 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img src="img/thumbnail5.png" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/4.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Friends are so worthy | respect and be gradefull them</h4>
+                    <p class="channel-name">5.6M views . 5 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <!-- <img src="img/thumbnail6.png" class="thumbnail" alt=""> -->
+
+            <video class="thumbnail" controls>
+                <source src="img/video.mp4" type="video/mp4">
+                <source src="img/video.mp4" type="video/ogg">
+
+            </video>
+            <div class="content">
+                <img src="img/3.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">The car is my good friend | I like the car</h4>
+                    <p class="channel-name">5.6M views . 5 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img src="img/thumbnail6.png" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/4.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">The car is my good friend | I like the car</h4>
+                    <p class="channel-name">5.6M views . 5 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img src="img/thumbnail6.png" class="thumbnail" alt="">
+            <div class="content">
+                <img src="img/3.jpg" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">The car is my good friend | I like the car</h4>
+                    <p class="channel-name">5.6M views . 5 years ago</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+
+</html>
